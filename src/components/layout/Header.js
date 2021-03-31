@@ -1,17 +1,18 @@
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 import { NavLink, Link } from 'react-router-dom';
 import React from 'react';
-import logo from '../images/CSR_LOGO.png'
+import logo from '../../images/CSR_LOGO.png'
+import './style.css'
 
 export default function Header() {
     return (
         <div style={{ position: "sticky", top: "0px", display: "grid", gridTemplateColumns: "8% 92% 0%" }}>
             <div><Link className="navbar-logo"><img src={logo} style={{ height: "100px" }} /></Link></div>
-            <div><Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "white", width: "100%", opacity: "0.6" }}>
+            <div><Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "white", width: "100%", opacity: "0.6", paddingTop: '30px' }}>
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav.Link href='/'><div style={{ color: "#011", fontSize: "14px" }}>HOME</div></Nav.Link>
+                    <Navbar.Collapse id="responsive-navbar-nav" className="nav">
+                        <Nav.Link href='/'><div style={{ color: "#111", fontSize: "14px" }}>HOME</div></Nav.Link>
                         <Nav.Link href='/about'><div style={{ color: "#111", fontSize: "14px" }}>ABOUT US</div></Nav.Link>
                         <Nav.Link href='/contact'><div style={{ color: "#111", fontSize: "14px" }}>CONTACT US</div></Nav.Link>
                         <Nav.Link href='/application'><div style={{ color: "#111", fontSize: "14px" }}>APPLICAION</div></Nav.Link>

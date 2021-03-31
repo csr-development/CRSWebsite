@@ -1,24 +1,24 @@
 import React from 'react'
 import { Button, Container, Row, Col } from 'react-bootstrap';
 import pay_method from '../../images/pay-method.png';
-import plan from '../../images/plan.png';
+import platinum from '../../images/adopt/platinum.jpg';
 import paypal from '../../images/paypal.jpg';
 
-export default function Donate() {
+export default function Platinum() {
     return (
         <Container style={{ marginTop: '40px' }}>
             <Row>
-                <Col xs={12} md={6} lg={6} style={{ position: "flex", marginTop: '10px' }}>
-                    <img style={{ width: '100%' }} src={plan} />
+                <Col xs={12} md={6} lg={6} style={{ position: "flex", marginTop: '40px' }}>
+                    <img style={{ width: '100%' }} src={platinum} />
                 </Col>
                 <Col xs={12} md={6} lg={6}>
                     <div>
-                        <h1 style={{ color: "red", textAlign: "center" }}>MAKE A DIFFERENCE</h1>
-                        <div style={{ padding: "10px" }}>
-                            Your can help cover at least 3 meals, the cost of educational supplies,
-                            and provide a student with a means of transportation. This donation will
-                            go directly to a student with demonstrated financial need and provide the
-                                  means to continue pursuing their education and dreams.</div>
+                        <p style={{ color: "#a00", fontSize: "35px", fontWeight: "bold", padding: "20px" }}>
+                            PLATINUM PACKAGE
+            </p>
+                        <div style={{ border: "0.1px solid #ccc", width: "50px", margin: 'auto' }}></div>
+                        <p style={{ padding: "30px" }}>
+                            You can sponsor a group of 10 students through this donation and fund the education of the great minds of tomorrow!</p>
                         <div style={{ textAlign: "center", paddingBottom: "50px" }}>
                             <Button variant='danger' style={{ fontSize: '14px', fontWeight: 'bold', backgroundColor: 'rgb(172, 35, 41)' }}>
                                 <span style={{ maxWidth: '20px', display: 'flex', display: 'inline-grid' }}>

@@ -1,5 +1,5 @@
-import Header from './Header';
-import Footer from './Footer';
+import Header from './layout/Header';
+import Footer from './layout/Footer';
 import React from 'react';
 import Together from './homeComponents/Together';
 import Adopt from './homeComponents/Adopt';
