@@ -37,10 +37,23 @@
   color: white;
   margin: 15px 0;
   float: left;
+  padding: 13px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .card button:hover {
   box-shadow: none;
   background: #b22;
   opacity: 0.8;
+}
+
+.card button:visited {
+  box-shadow: none;
+  background: #b22;
+}
+
+.card button:active {
+  box-shadow: none;
+  background: #b22;
 }
