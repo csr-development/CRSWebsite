@@ -5,7 +5,7 @@ import { Button, Container, Row, Col, Form } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.css";
 export default function Contact() {
     return (
-        <div style={{ position: "relative" }}>
+        <div>
             <Header />
             <Container >
                 <h1 class="text-center" style={{ color: 'brown', fontSize: 50, paddingBottom: 30, paddingTop: 30, fontWeight: 'bold' }}>Get Involved</h1>
