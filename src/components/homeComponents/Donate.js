@@ -9,7 +9,7 @@ export default function Donate() {
         <Container style={{ marginTop: '40px' }}>
             <Row>
                 <Col xs={12} md={6} lg={6} style={{ position: "flex", marginTop: '10px' }}>
-                    <img style={{ width: '100%' }} src={plan} />
+                    <img style={{ width: '100%' }} src={plan} alt='Donation Table' />
                 </Col>
                 <Col xs={12} md={6} lg={6}>
                     <div>
@@ -24,7 +24,7 @@ export default function Donate() {
                                 <span style={{ maxWidth: '20px', display: 'flex', display: 'inline-grid' }}>
                                     <img style={{ width: '100%' }} src={paypal} alt='paypal' /></span>
                                 <span style={{ padding: '10px', display: 'inline-grid' }}>DONATE NOW</span></Button>
-                            <br /><img style={{ height: "20px" }} src={pay_method} />
+                            <br /><img style={{ height: "20px" }} src={pay_method} alt='pay methods' />
                         </div>
                     </div>
                 </Col>

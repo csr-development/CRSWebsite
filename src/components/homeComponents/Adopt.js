@@ -7,7 +7,7 @@ export default function Adopt() {
         <div style={{
             background: `url(${hand}) center no-repeat`,
             backgroundSize: "cover",
-            color: "white",
+            color: "black",
         }}>
             <h1 style={{ textAlign: "center", fontSize: "45px", paddingTop: "75px" }}>ADOPT A STUDENT CAMPAIGN</h1>
             <div style={{ textAlign: "center", paddingBottom: "50px" }}><Button variant="danger">LEARN MORE</Button></div>

@@ -16,16 +16,16 @@ export default function Ins() {
             <Container style={{ paddingTop: "30px" }}>
                 <Row>
                     <Col xs={6} md={4} lg={3}>
-                        <img style={{ height: "240px" }} src={i1} />
+                        <img style={{ height: "240px" }} src={i1} alt='Family'/>
                     </Col>
                     <Col xs={6} md={4} lg={3}>
-                        <img style={{ height: "240px" }} src={i2} />
+                        <img style={{ height: "240px" }} src={i2} alt='Happy Family Day'/>
                     </Col>
                     <Col xs={6} md={4} lg={3}>
-                        <img style={{ height: "240px" }} src={i3} />
+                        <img style={{ height: "240px" }} src={i3} alt='Family is everything' />
                     </Col>
                     <Col xs={6} md={4} lg={3}>
-                        <img style={{ height: "240px" }} src={i4} />
+                        <img style={{ height: "240px" }} src={i4} alt='Cupid'/>
                     </Col>
                 </Row>
             </Container>

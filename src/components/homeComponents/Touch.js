@@ -10,7 +10,7 @@ const InputField = withStyles({
             color: "tomato",
         },
         "& label": {
-            color: "tan"
+            color: "black",
         },
         "& .MuiOutlinedInput-root": {
             "& fieldset": {

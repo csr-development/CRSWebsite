@@ -7,7 +7,7 @@ import './style.css'
 export default function Header() {
     return (
         <div style={{ position: "sticky", top: "0px", display: "grid", gridTemplateColumns: "8% 92% 0%" }}>
-            <div><Link to="/"className="navbar-logo"><img src={logo} style={{ height: "100px" }} /></Link></div>
+            <div><Link to="/"className="navbar-logo"><img src={logo} alt='CSR Logo' style={{ height: "100px" }} /></Link></div>
             <div><Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "white", width: "100%", opacity: "0.6", paddingTop: '30px' }}>
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -15,7 +15,7 @@ export default function Header() {
                         <Nav.Link href='/'><div style={{ color: "#111", fontSize: "14px" }}>HOME</div></Nav.Link>
                         <Nav.Link href='/about'><div style={{ color: "#111", fontSize: "14px" }}>ABOUT US</div></Nav.Link>
                         <Nav.Link href='/contact'><div style={{ color: "#111", fontSize: "14px" }}>CONTACT US</div></Nav.Link>
-                        <Nav.Link href='/application'><div style={{ color: "#111", fontSize: "14px" }}>APPLICAION</div></Nav.Link>
+                        <Nav.Link href='/application'><div style={{ color: "#111", fontSize: "14px" }}>APPLICATION</div></Nav.Link>
                         <Nav.Link href='/event'><div style={{ color: "#111", fontSize: "14px" }}>EVENT</div></Nav.Link>
                         <Nav.Link href='/adopt'><div style={{ color: "#111", fontSize: "14px" }}>ADOPT A STUDENT</div></Nav.Link>
                         <Nav.Link href='/partners'><div style={{ color: "#111", fontSize: "14px" }}>PARTNERS</div></Nav.Link>
