@@ -39,24 +39,27 @@ const Footer = () => {
     const classes = useStyle()
     return (
 
-        <BottomNavigation style={{ position: "relative", margin: "20px" }}>
-            <div style={{ width: "100vw", background: "#000", padding: "10px" }}>
-                <Row>
-                    <Col xs={12} md={6} lg={6}>
-                        <div style={{ textAlign: "center", color: "#bbb", fontSize: "13px" }}>
-                            Copyright &#169; 2021 Csrcharity - All Rights Reserved.</div>
-                    </Col>
-                    <Col xs={12} md={6} lg={6}>
-                        <div style={{ textAlign: "center" }}>
-                            <BottomNavigationAction className={classes.root} onClick={clickFacebook} style={{ padding: 0 }} icon={<Facebook />} />
-                            <BottomNavigationAction className={classes.root} onClick={clickTwitter} style={{ padding: 0 }} icon={<Twitter />} />
-                            <BottomNavigationAction className={classes.root} onClick={clickIns} style={{ padding: 0 }} icon={<Ins />} />
-                            <BottomNavigationAction className={classes.root} onClick={clickLinkedIn} style={{ padding: 0 }} icon={<LinkedIN />} />
-                        </div>
-                    </Col>
-                </Row>
-            </div>
-        </BottomNavigation >
+        // <BottomNavigation style={{ position: "relative", margin: "20px" }}>
+        //     <div style={{ width: "100vw", background: "#000", padding: "10px" }}>
+        //         <Row>
+        //             <Col xs={12} md={6} lg={6}>
+        //                 <div style={{ textAlign: "center", color: "#bbb", fontSize: "13px" }}>
+        //                     Copyright &#169; 2021 Csrcharity - All Rights Reserved.</div>
+        //             </Col>
+        //             <Col xs={12} md={6} lg={6}>
+        //                 <div style={{ textAlign: "center" }}>
+        //                     <BottomNavigationAction className={classes.root} onClick={clickFacebook} style={{ padding: 0 }} icon={<Facebook />} />
+        //                     <BottomNavigationAction className={classes.root} onClick={clickTwitter} style={{ padding: 0 }} icon={<Twitter />} />
+        //                     <BottomNavigationAction className={classes.root} onClick={clickIns} style={{ padding: 0 }} icon={<Ins />} />
+        //                     <BottomNavigationAction className={classes.root} onClick={clickLinkedIn} style={{ padding: 0 }} icon={<LinkedIN />} />
+        //                 </div>
+        //             </Col>
+        //         </Row>
+        //     </div>
+        // </BottomNavigation >
+        <div>
+            test
+        </div>
     )
 }
 

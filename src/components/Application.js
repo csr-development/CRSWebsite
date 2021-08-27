@@ -7,6 +7,7 @@ export default function Application() {
         <div>
             <Header />
             Application
+            <Footer />
         </div>
     )
 }

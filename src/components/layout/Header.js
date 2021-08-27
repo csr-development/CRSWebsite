@@ -7,7 +7,7 @@ import './style.css'
 export default function Header() {
     return (
         <div style={{ position: "sticky", top: "0px", display: "grid", gridTemplateColumns: "8% 92% 0%" }}>
-            <div><Link className="navbar-logo"><img src={logo} style={{ height: "100px" }} /></Link></div>
+            <div><Link to="/"className="navbar-logo"><img src={logo} style={{ height: "100px" }} /></Link></div>
             <div><Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "white", width: "100%", opacity: "0.6", paddingTop: '30px' }}>
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -23,12 +23,6 @@ export default function Header() {
                         <Nav.Link href='/blogs'><div style={{ color: "#111", fontSize: "14px" }}>BLOGS</div></Nav.Link>
                         <Nav.Link href='/branches'><div style={{ color: "#111", fontSize: "14px" }}>BRANCHES</div></Nav.Link>
                         <Nav.Link href='/academic'><div style={{ color: "#111", fontSize: "14px" }}>ACADEMIC</div></Nav.Link>
-                        {/* <NavDropdown title="MORE">
-                            <NavDropdown.Item href='/internships'>INTERNSHIPS</NavDropdown.Item>
-                            <NavDropdown.Item href='/blogs'>BLOGS</NavDropdown.Item>
-                            <NavDropdown.Item href='/branches'>BRANCHES</NavDropdown.Item>
-                            <NavDropdown.Item href='/academic'>ACADEMIC</NavDropdown.Item>
-                        </NavDropdown> */}
                     </Navbar.Collapse>
                 </Container>
             </Navbar></div>

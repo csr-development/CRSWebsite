@@ -18,144 +18,156 @@ import communicationDirector from "../../images/Internships/CommunicationDirecto
 import vicePresidentInternal from "../../images/Internships/VicePresidentInternal.jpg";
 import videographer from "../../images/Internships/Videographer.jpg";
 import videoEditor from "../../images/Internships/VideoEditor.jpg";
-
+import {BrowserRouter as Router} from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom';
+import Route from 'react-router-dom'
+import { browserHistory } from "react-router-dom";
 import "../CSS/AvailablePosition.css";
 
-export default function AvailablePositions(){
-    return(
-        <div style={{ textAlign: "center", margin:"30px"}}>
-                <p style={{ color: "#a00", fontSize: "45px", fontWeight: "bold", paddingTop: "10px" }}>
-                Available Positions
-                </p>
-                <div style={{ border: "0.1px solid #ccc", width: "50px", margin: "auto" }}></div>
-                <div id="AvailablePositions">
-                    <div className="card">
-                        <p>Website Designer</p>
-                        <img src={websiteDesigner}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
+export default function AvailablePositions() {
+        return(
+            <div style={{ textAlign: "center", margin:"30px"}}>
+                    <p style={{ color: "#a00", fontSize: "45px", fontWeight: "bold", paddingTop: "10px" }}>
+                    Available Positions
+                    </p>
+                    <div style={{ border: "0.1px solid #ccc", width: "50px", margin: "auto" }}></div>
+                    <div id="AvailablePositions">
+                        <div className="card">
+                            <p>Website Designer</p>
+                            <img src={websiteDesigner}/>
+                            <div className="content">
+                            <Link to="/websiteDesigner">
+                            <button>FIND  OUT  MORE</button>
+                            </Link>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Grant Writer</p>
+                            <img src={grantWriter}/>
+                            <div className="content">
+                            <Link to="/GrantWriter">
+                            <button>FIND  OUT  MORE</button>
+                            </Link>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Digital Marketing Officer</p>
+                            <img src={digitalMarketingOfficer}/>
+                            <div className="content">
+                            <Link to="/DigitalMarketing">
+                            <button>FIND  OUT  MORE</button>
+                            </Link>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Finance Director</p>
+                            <img src={financeDirector}/>
+                            <div className="content">
+                            <Link to="/FinanceDirector">
+                            <button>FIND  OUT  MORE</button>
+                            </Link>   
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Outreach Coordinator</p>
+                            <img src={outreachCoordinator}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Marketing Specialist</p>
+                            <img src={marketingSpecialist}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Photographer</p>
+                            <img src={photographer}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Legal Affairs</p>
+                            <img src={legalAffairs}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Vice-President External</p>
+                            <img src={vicePresidentExternal}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Academic Affairs</p>
+                            <img src={academicAffairs}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Public Relations</p>
+                            <img src={publicRelations}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Human Resources</p>
+                            <img src={humanResources}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Professional Development Officer</p>
+                            <img src={careerAndProfessionalDevelopment}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Sports Coordinator</p>
+                            <img src={sportsCordinator}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Communication Director</p>
+                            <img src={communicationDirector}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Vice-President Internal</p>
+                            <img src={vicePresidentInternal}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Videographer</p>
+                            <img src={videographer}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <p>Video Editor</p>
+                            <img src={videoEditor}/>
+                            <div className="content">
+                            <button>FIND  OUT  MORE</button>
+                            </div>
                         </div>
                     </div>
-                    <div className="card">
-                        <p>Grant Writer</p>
-                        <img src={grantWriter}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Digital Marketing Officer</p>
-                        <img src={digitalMarketingOfficer}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Finance Director</p>
-                        <img src={financeDirector}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Outreach Coordinator</p>
-                        <img src={outreachCoordinator}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Marketing Specialist</p>
-                        <img src={marketingSpecialist}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Photographer</p>
-                        <img src={photographer}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Legal Affairs</p>
-                        <img src={legalAffairs}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Vice-President External</p>
-                        <img src={vicePresidentExternal}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Academic Affairs</p>
-                        <img src={academicAffairs}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Public Relations</p>
-                        <img src={publicRelations}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Human Resources</p>
-                        <img src={humanResources}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Professional Development Officer</p>
-                        <img src={careerAndProfessionalDevelopment}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Sports Coordinator</p>
-                        <img src={sportsCordinator}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Communication Director</p>
-                        <img src={communicationDirector}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Vice-President Internal</p>
-                        <img src={vicePresidentInternal}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Videographer</p>
-                        <img src={videographer}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <p>Video Editor</p>
-                        <img src={videoEditor}/>
-                        <div className="content">
-                        <button>FIND  OUT  MORE</button>
-                        </div>
-                    </div>
-                </div>
-        </div>        
-    )
+            </div>        
+        )
+   
 }

@@ -1,0 +1,11 @@
+.button {
+  border: none;
+  outline: none;
+  background: #b22;
+  color: white;
+  margin: 15px 0;
+  float: left;
+  padding: 13px;
+  font-size: 15px;
+  font-weight: 600;
+}
