@@ -13,7 +13,7 @@ export default function Resume() {
                             Don’t miss the opportunity to create your best resume yet. Join us on November 16th for more tips.</p>
                     </Col>
                     <Col xs={{ span: 12, order: "first" }} md={{ span: 6, order: "last" }}>
-                        <img src={resume} />
+                        <img src={resume} alt='resume' />
                     </Col>
                 </Row>
             </Container>

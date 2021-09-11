@@ -12,15 +12,11 @@ export default function Yoga() {
                         <p style={{ textAlign: "center", fontSize: "15px", fontWeight: "bold", color: "#666", padding: "10px" }}>
                             Relieve your stress by yoga and streching.</p>
                         <p style={{ textAlign: "center", fontSize: "15px", fontWeight: "bold", color: "#666", paddingTop: "10px" }}>
-                            Registered Participants
-                        </p>
-                        <p style={{ textAlign: "center", fontSize: "15px", color: "#999" }}>Students across Canada</p>
-                        <p style={{ textAlign: "center", fontSize: "15px", fontWeight: "bold", color: "#666", paddingTop: "10px" }}>
-                            May. 1st, 2020<br />6 P.M to 7 P.M (EST)
+                           TBA<br />
                         </p>
                     </Col>
                     <Col xs={{ span: 12, order: "first" }} md={{ span: 6, order: "last" }}>
-                        <img src={yoga} />
+                        <img src={yoga} alt='yoga'/>
                     </Col>
                 </Row>
             </Container>

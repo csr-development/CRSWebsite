@@ -12,7 +12,7 @@ export default function CoverLetter() {
             <Container style={{ padding: "30px" }}>
                 <Row>
                     <Col xs={12} md={6} lg={6}>
-                        <img src={coverLetter} />
+                        <img src={coverLetter} alt="Cover Letter"/>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
                         <p style={{ textAlign: "center", fontSize: "25px", paddingTop: "100px" }}>Cover letter workshop</p>
