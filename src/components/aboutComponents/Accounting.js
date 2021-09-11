@@ -9,7 +9,7 @@ export default function Accounting() {
             </p>
             <div style={{ border: "0.1px solid #ccc", width: "50px", margin: "auto" }}></div>
 
-            <img style={{ borderRadius: "50%", height: "250px", paddingTop: "20px" }} src={president} />
+            <img style={{ borderRadius: "50%", height: "250px", paddingTop: "20px" }} src={president} alt=" Arman Financial Services"/>
             <p style={{ fontSize: "18px", color: "#666", paddingBottom: "30px" }}>
                 Arman Financial Services</p>
         </div>

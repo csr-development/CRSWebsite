@@ -12,7 +12,7 @@ export default function Communications() {
             <Container style={{ padding: "30px" }}>
                 <Row>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Julia Sarniak"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Julia Sarniak
             </p>
@@ -20,7 +20,7 @@ export default function Communications() {
                             Team Lead</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt=" Kanishka Dalwadi"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Kanishka Dalwadi
             </p>
@@ -28,7 +28,7 @@ export default function Communications() {
                             Communications and Social Media</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt=" Hannah Hormillada"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Hannah Hormillada
             </p>
@@ -36,7 +36,7 @@ export default function Communications() {
                             Communications and Social Media</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Catherine Ngoc Le"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Catherine Ngoc Le
             </p>

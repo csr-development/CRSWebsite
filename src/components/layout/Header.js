@@ -6,9 +6,9 @@ import './style.css'
 
 export default function Header() {
     return (
-        <div style={{ position: "sticky", top: "0px", display: "grid", gridTemplateColumns: "8% 92% 0%" }}>
+        <div style={{ position: "sticky", top: "0", display: "flex" , gridTemplateColumns: "8% 92% 0%", backgroundColor: "white", width: "100%" }} className='sticky-top""'>
             <div><Link to="/"className="navbar-logo"><img src={logo} alt='CSR Logo' style={{ height: "100px" }} /></Link></div>
-            <div><Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "white", width: "100%", opacity: "0.6", paddingTop: '30px' }}>
+            <div><Navbar collapseOnSelect expand="lg" style={{ paddingTop: '30px' }}>
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="nav">

@@ -13,7 +13,7 @@ export default function Team() {
             <Container style={{ padding: "30px" }}>
                 <Row>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Kamyab Parsa"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Kamyab Parsa
             </p>
@@ -21,7 +21,7 @@ export default function Team() {
                             Founder and President</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={vice_president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={vice_president} alt="Shahin Jafari"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Shahin Jafari
             </p>

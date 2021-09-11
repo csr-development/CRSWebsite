@@ -9,7 +9,7 @@ export default function Academic() {
             </p>
             <div style={{ border: "0.1px solid #ccc", width: "50px", margin: "auto" }}></div>
 
-            <img style={{ borderRadius: "50%", height: "250px", paddingTop: "20px" }} src={president} />
+            <img style={{ borderRadius: "50%", height: "250px", paddingTop: "20px" }} src={president} alt="Mylynh Nguyen"/>
             <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                 Mylynh Nguyen
             </p>

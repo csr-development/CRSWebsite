@@ -12,7 +12,7 @@ export default function HR() {
             <Container style={{ padding: "30px" }}>
                 <Row>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Mansi Premkumar"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Mansi Premkumar
             </p>
@@ -20,7 +20,7 @@ export default function HR() {
                             Team Lead</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Ashley Tran" />
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Ashley Tran
             </p>
@@ -28,7 +28,7 @@ export default function HR() {
                             Human Resources</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Shuriaa Packiyanathan"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Shuriaa Packiyanathan
             </p>
@@ -36,7 +36,7 @@ export default function HR() {
                             Human Resources</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt=" Ritika Sanghavi"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Ritika Sanghavi
             </p>

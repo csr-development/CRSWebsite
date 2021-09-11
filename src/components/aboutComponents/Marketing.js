@@ -12,7 +12,7 @@ export default function Marketing() {
             <Container style={{ padding: "30px" }}>
                 <Row>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Amreen Mohamed"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Amreen Mohamed
             </p>
@@ -20,7 +20,7 @@ export default function Marketing() {
                             Team Lead</p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Aneeka Afaq"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Aneeka Afaq
             </p>
@@ -28,7 +28,7 @@ export default function Marketing() {
                             Marketing</p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Huda Musa"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Huda Musa
             </p>
@@ -36,7 +36,7 @@ export default function Marketing() {
                             Marketing </p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Parth Dalwadi"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Parth Dalwadi
             </p>
@@ -44,7 +44,7 @@ export default function Marketing() {
                             Marketing</p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Vraj Thakkar"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Vraj Thakkar
             </p>

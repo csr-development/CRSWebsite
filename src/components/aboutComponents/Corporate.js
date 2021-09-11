@@ -12,7 +12,7 @@ export default function Corporate() {
             <Container style={{ padding: "30px" }}>
                 <Row>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Soroush Talebi"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Soroush Talebi
             </p>
@@ -20,7 +20,7 @@ export default function Corporate() {
                             Team Lead</p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Hammad Ahmed Khan"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Hammad Ahmed Khan
             </p>
@@ -28,7 +28,7 @@ export default function Corporate() {
                             Corporate Affair</p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Ishika Gupta" />
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Ishika Gupta
             </p>
@@ -36,7 +36,7 @@ export default function Corporate() {
                             Corporate Affair</p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Lidya Gebrekidan"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Lidya Gebrekidan
             </p>
@@ -44,7 +44,7 @@ export default function Corporate() {
                             Corporate Affair</p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Zahbiullah Safi"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Zahbiullah Safi
             </p>

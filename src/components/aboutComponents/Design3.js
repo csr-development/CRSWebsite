@@ -8,7 +8,7 @@ export default function Design3() {
             <Container style={{ padding: "30px" }}>
                 <Row>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Dorothy Frimpong"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Dorothy Frimpong
             </p>
@@ -16,7 +16,7 @@ export default function Design3() {
                             Photography</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Manav Muthreja"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Manav Muthreja
             </p>

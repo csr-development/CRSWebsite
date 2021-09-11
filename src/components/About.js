@@ -17,7 +17,7 @@ import Finances from './aboutComponents/Finances';
 import HR from './aboutComponents/HR';
 import Writing from './aboutComponents/Writing';
 import Corporate from './aboutComponents/Corporate';
-import Legal from './aboutComponents/Legal';
+// import Legal from './aboutComponents/Legal';
 import Accounting from './aboutComponents/Accounting';
 import Advisors from './aboutComponents/Advisors';
 import History from './aboutComponents/History';
@@ -27,7 +27,7 @@ export default function About() {
         <div>
             <Header />
             <div style={{ position: "relative", padding: "60px" }}>
-                <img src={aboutMain} style={{ maxWidth: "80vw", position: "relative" }} />
+                <img src={aboutMain} style={{ maxWidth: "80vw", position: "relative" }} alt='Typing' />
             </div>
             <Mission />
             <Team />
@@ -44,7 +44,7 @@ export default function About() {
             <Writing />
             <HR />
             <Corporate />
-            <Legal />
+            {/* <Legal /> - no person in this component, removed it temporary*/}
             <Accounting />
             <Advisors />
             <History />

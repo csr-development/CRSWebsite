@@ -8,7 +8,7 @@ export default function Outreach2() {
             <Container style={{ padding: "30px" }}>
                 <Row>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Navya Goel"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Navya Goel
             </p>
@@ -16,7 +16,7 @@ export default function Outreach2() {
                             Outreach</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Aarushi Pradhan" />
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Aarushi Pradhan
             </p>
@@ -24,7 +24,7 @@ export default function Outreach2() {
                             Public Relations</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Tanesha Agrawal"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Tanesha Agrawal
             </p>
@@ -32,7 +32,7 @@ export default function Outreach2() {
                             Public Relations</p>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president}  alt=" Yulina Zhao"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Yulina Zhao
             </p>

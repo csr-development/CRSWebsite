@@ -12,7 +12,7 @@ export default function Writing() {
             <Container style={{ padding: "30px" }}>
                 <Row>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Sarah Asim"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Sarah Asim
             </p>
@@ -20,7 +20,7 @@ export default function Writing() {
                             Team Lead</p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Heris Wu"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Heris Wu
             </p>
@@ -28,7 +28,7 @@ export default function Writing() {
                             Writing</p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Kyra (Kym Bahandi)"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Kyra (Kym Bahandi)
             </p>
@@ -36,7 +36,7 @@ export default function Writing() {
                             Writing </p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Maha Ali"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Maha Ali
             </p>
@@ -44,7 +44,7 @@ export default function Writing() {
                             Writing </p>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} />
+                        <img style={{ borderRadius: "50%", height: "250px" }} src={president} alt="Stephanie Sahadeo"/>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>
                             Stephanie Sahadeo
             </p>
