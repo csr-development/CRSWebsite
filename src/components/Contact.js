@@ -8,7 +8,7 @@ export default function Contact() {
         <div>
             <Header />
             <Container >
-                <h1 class="text-center" style={{ color: 'brown', fontSize: 50, paddingBottom: 30, paddingTop: 30, fontWeight: 'bold' }}>Get Involved</h1>
+                <h1 className="text-center" style={{ color: 'brown', fontSize: 50, paddingBottom: 30, paddingTop: 30, fontWeight: 'bold' }}>Get Involved</h1>
                 <Row>
                     {/* <Col xs={12} md={6} lg={6} style={{ position: "relative" }}>  */}
                     <Col md={6}>
@@ -69,7 +69,7 @@ export default function Contact() {
                 </Row>
             </Container>
             <Container>
-                <h1 class="text-center" style={{ color: 'brown', fontSize: 50, paddingBottom: 30, paddingTop: 70, fontWeight: 'bold' }}>Contact Us</h1>
+                <h1 className="text-center" style={{ color: 'brown', fontSize: 50, paddingBottom: 30, paddingTop: 70, fontWeight: 'bold' }}>Contact Us</h1>
                 <Row className="justify-content-md-center">
                     <Col md="8">
                         <Form>
