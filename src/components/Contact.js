@@ -10,14 +10,12 @@ export default function Contact() {
             <Container >
                 <h1 className="text-center" style={{ color: 'brown', fontSize: 50, paddingBottom: 30, paddingTop: 30, fontWeight: 'bold' }}>Get Involved</h1>
                 <Row>
-                    {/* <Col xs={12} md={6} lg={6} style={{ position: "relative" }}>  */}
                     <Col md={6}>
                         <p style={{ paddingBottom: 20, fontSize: 25 }}>Get Involved!</p>
                         <Form>
                             <Form.Group controlId="exampleForm.ControlInput1">
                                 <Form.Label>Name</Form.Label>
                                 <Form.Control type="text" placeholder="Name*" />
-                                {/* <Form.Control  type="text" placeholder="Name*" /> */}
                             </Form.Group>
                             <Form.Group controlId="exampleForm.ControlInput1">
                                 <Form.Label>Email address</Form.Label>
@@ -44,7 +42,6 @@ export default function Contact() {
                         </Form>
                     </Col>
 
-                    {/* <Col xs={12} md={6  } lg={6} style={{ position: "relative" }}> */}
                     <Col md={{ span: 5, offset: 1 }}>
                         <h2>Canadian Student Relief Charity</h2>
                         <br></br><br />

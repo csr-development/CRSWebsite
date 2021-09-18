@@ -12,8 +12,8 @@ export default function Adopt() {
     return (
         <div>
             <Header />
-            <div style={{ background: `url(${hands}) center no-repeat`, backgroundSize: "cover", width: '100vw', height: '250px', display: 'flex' }}>
-                <p style={{ margin: 'auto', color: '#fff', fontSize: '50px', fontWeight: 'bold' }}>ADOPT A STUDENT CAMPAIGN</p>
+            <div style={{ background: `url(${hands}) center no-repeat`, backgroundSize: "cover",width: '100vw', height: '250px', display: 'flex' }}>
+                <p className='stroke-item' style={{ backgroundColor: 'rgba(0,0,0,0.1)', margin: 'auto', color: '#fff', fontSize: '50px', fontWeight: 'bold' }}>ADOPT A STUDENT CAMPAIGN</p>
             </div>
             <div style={{ backgroundColor: 'rgb(172, 35, 41)', alignItems: 'center', paddingBottom: '30px' }}>
                 <p style={{ color: '#fff', fontSize: '50px', fontWeight: 'bold' }}>STUDENTS NEED YOUR HELP</p>

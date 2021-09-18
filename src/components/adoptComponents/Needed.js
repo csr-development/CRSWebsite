@@ -17,7 +17,7 @@ export default function Needed() {
                         <p style={{ fontSize: "22px", paddingTop: "10px" }}>
                             FOOD
             </p>
-                        <img style={{ height: "190px", paddingBottom: '20px' }} src={food} />
+                        <img style={{ height: "190px", paddingBottom: '20px' }} src={food} alt='Market basket' />
                         <p style={{ fontSize: "15px", color: "#666", paddingBottom: "30px" }}>
                             Food is one of the most basic needs that most of us are able to take for
                             granted. Unfortunately, one in seven Canadians are food insecure, and many
@@ -29,7 +29,7 @@ export default function Needed() {
                         <p style={{ fontSize: "22px", paddingTop: "10px" }}>
                             EDUCATIONAL SUPPLIES
             </p>
-                        <img style={{ height: "190px", paddingBottom: '20px' }} src={learning} />
+                        <img style={{ height: "190px", paddingBottom: '20px' }} src={learning} alt='Educational supplies' />
                         <p style={{ fontSize: "15px", color: "#666", paddingBottom: "30px" }}>
                             Besides tuition, university also comes with the price of textbooks and
                             school supplies. Now, the expensive cost of a laptop has also become a
@@ -39,7 +39,7 @@ export default function Needed() {
                         <p style={{ fontSize: "22px", paddingTop: "10px" }}>
                             TRANSPORTATION
             </p>
-                        <img style={{ height: "190px", paddingBottom: '20px' }} src={transportation} />
+                        <img style={{ height: "190px", paddingBottom: '20px' }} src={transportation} alt='bus'/>
                         <p style={{ fontSize: "15px", color: "#666", paddingBottom: "30px" }}>
                             To cover some of these mounting costs, many students hold part-time jobs,
                             adding the price of a bus or subway ride. Some must even forego public
