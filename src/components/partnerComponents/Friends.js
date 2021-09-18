@@ -11,34 +11,34 @@ export default function Friends() {
             <div className="slider" style={{ width: "70%" }}>
                 <div className="slide-track">
                     <div className="slide">
-                        <img src={i1} />
+                        <img src={i1} alt='York' />
                     </div>
                     <div className="slide">
-                        <img src={i2} />
+                        <img src={i2} alt='student'/>
                     </div>
                     <div className="slide">
-                        <img src={i1} />
+                        <img src={i1} alt='York' />
                     </div>
                     <div className="slide">
-                        <img src={i2} />
+                        <img src={i2} alt='student'/>
                     </div>
                     <div className="slide">
-                        <img src={i1} />
+                        <img src={i1} alt='York' />
                     </div>
                     <div className="slide">
-                        <img src={i2} />
+                        <img src={i2} alt='student'/>
                     </div>
                     <div className="slide">
-                        <img src={i1} />
+                        <img src={i1} alt='York' />
                     </div>
                     <div className="slide">
-                        <img src={i2} />
+                        <img src={i2} alt='student'/>
                     </div>
                     <div className="slide">
-                        <img src={i1} />
+                        <img src={i1} alt='York' />
                     </div>
                     <div className="slide">
-                        <img src={i2} />
+                        <img src={i2} alt='student'/>
                     </div>
                 </div>
             </div>

@@ -21,34 +21,34 @@ export default function Partners() {
             <div className="slider" style={{ width: "90%" }}>
                 <div className="slide-track">
                     <div className="slide">
-                        <img src={i1} />
+                        <img src={i1} alt='redbull' />
                     </div>
                     <div className="slide">
-                        <img src={i2} />
+                        <img src={i2} alt='bigChief'/>
                     </div>
                     <div className="slide">
-                        <img src={i3} />
+                        <img src={i3} alt='hershey'/>
                     </div>
                     <div className="slide">
-                        <img src={i4} />
+                        <img src={i4} alt='fiance'/>
                     </div>
                     <div className="slide">
-                        <img src={i5} />
+                        <img src={i5} alt='northstar'/>
                     </div>
                     <div className="slide">
-                        <img src={i6} />
+                        <img src={i6} alt='moisson'/>
                     </div>
                     <div className="slide">
-                        <img src={i7} />
+                        <img src={i7} alt='CaNeda' />
                     </div>
                     <div className="slide">
-                        <img src={i8} />
+                        <img src={i8} alt='fourmi'/>
                     </div>
                     <div className="slide">
-                        <img src={i9} />
+                        <img src={i9} alt='orca' />
                     </div>
                     <div className="slide">
-                        <img src={i10} />
+                        <img src={i10} alt='altBay' />
                     </div>
                 </div>
             </div>
