@@ -13,7 +13,7 @@ export default function WebsiteDesigner() {
             <div id="content">
                 <Row style={{ paddingTop: "30px" , paddingBottom:"20px"}}>
                     <Col md={6}>
-                    <img style={{maxWidth:"100%", maxHeight:"100%", height:"auto", width:"500px"}} src={websiteDesigner}/>
+                    <img style={{maxWidth:"100%", maxHeight:"100%", height:"auto", width:"500px"}} src={websiteDesigner} alt='Web designer'/>
                     </Col>
                     <Col style={{ paddingRight: "30px" }}>
                         <p style={{fontSize:"18px", textAlign:"left"}}>Exciting positions are available in web development and app development, respectively. You will be able to get the experience and responsibility of developing a website and app from scratch!</p>

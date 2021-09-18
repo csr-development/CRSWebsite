@@ -34,7 +34,7 @@ export default function AvailablePositions() {
                     <div id="AvailablePositions">
                         <div className="card">
                             <p>Website Designer</p>
-                            <img src={websiteDesigner}/>
+                            <img src={websiteDesigner} alt='web designer'/>
                             <div className="content">
                             <Link to="/websiteDesigner">
                             <button>FIND  OUT  MORE</button>
@@ -43,7 +43,7 @@ export default function AvailablePositions() {
                         </div>
                         <div className="card">
                             <p>Grant Writer</p>
-                            <img src={grantWriter}/>
+                            <img src={grantWriter} alt='writer'/>
                             <div className="content">
                             <Link to="/GrantWriter">
                             <button>FIND  OUT  MORE</button>
@@ -52,7 +52,7 @@ export default function AvailablePositions() {
                         </div>
                         <div className="card">
                             <p>Digital Marketing Officer</p>
-                            <img src={digitalMarketingOfficer}/>
+                            <img src={digitalMarketingOfficer} alt='digital marketing officer'/>
                             <div className="content">
                             <Link to="/DigitalMarketing">
                             <button>FIND  OUT  MORE</button>
@@ -61,7 +61,7 @@ export default function AvailablePositions() {
                         </div>
                         <div className="card">
                             <p>Finance Director</p>
-                            <img src={financeDirector}/>
+                            <img src={financeDirector} alt='finance director'/>
                             <div className="content">
                             <Link to="/FinanceDirector">
                             <button>FIND  OUT  MORE</button>
@@ -70,98 +70,98 @@ export default function AvailablePositions() {
                         </div>
                         <div className="card">
                             <p>Outreach Coordinator</p>
-                            <img src={outreachCoordinator}/>
+                            <img src={outreachCoordinator} alt='outreach coordinator'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Marketing Specialist</p>
-                            <img src={marketingSpecialist}/>
+                            <img src={marketingSpecialist} alt='marketing specialist'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Photographer</p>
-                            <img src={photographer}/>
+                            <img src={photographer} alt='photographer'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Legal Affairs</p>
-                            <img src={legalAffairs}/>
+                            <img src={legalAffairs} alt='legal affairs'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Vice-President External</p>
-                            <img src={vicePresidentExternal}/>
+                            <img src={vicePresidentExternal} alt='VP external'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Academic Affairs</p>
-                            <img src={academicAffairs}/>
+                            <img src={academicAffairs} alt='academic affairs'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Public Relations</p>
-                            <img src={publicRelations}/>
+                            <img src={publicRelations} alt='Public Relations'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Human Resources</p>
-                            <img src={humanResources}/>
+                            <img src={humanResources} alt='Human resources'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Professional Development Officer</p>
-                            <img src={careerAndProfessionalDevelopment}/>
+                            <img src={careerAndProfessionalDevelopment} alt='Professional Development Officer'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Sports Coordinator</p>
-                            <img src={sportsCordinator}/>
+                            <img src={sportsCordinator} alt='Sports Coordinator'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Communication Director</p>
-                            <img src={communicationDirector}/>
+                            <img src={communicationDirector} alt='Communication Director'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Vice-President Internal</p>
-                            <img src={vicePresidentInternal}/>
+                            <img src={vicePresidentInternal} alt='VP Internal'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Videographer</p>
-                            <img src={videographer}/>
+                            <img src={videographer} alt='videographer'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>
                         </div>
                         <div className="card">
                             <p>Video Editor</p>
-                            <img src={videoEditor}/>
+                            <img src={videoEditor} alt='video editor'/>
                             <div className="content">
                             <button>FIND  OUT  MORE</button>
                             </div>

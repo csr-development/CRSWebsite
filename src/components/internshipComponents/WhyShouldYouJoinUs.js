@@ -14,7 +14,7 @@ export default function WhyShouldYouJoinUs(){
             <div style={{ border: "0.1px solid #ccc", width: "50px", margin: "auto" }}></div>
             <Row style={{padding:"30px"}}>
                         <Col xs={12} md={12} lg={4} >
-                        <img style={{maxWidth:"400px", maxHeight:"400px", width: "100%",  height: "100%", paddingBottom:"15px"}} src={whyShouldYouJoinUs} />
+                        <img style={{maxWidth:"400px", maxHeight:"400px", width: "100%",  height: "100%", paddingBottom:"15px"}} src={whyShouldYouJoinUs}  alt='union'/>
                         </Col>
                         <Col xs={12} md={12} lg={8}>
                             Over time you will learn how to handle different aspects of a company, such as communicating and networking with                              other organizations, managing finances, and working closely in teams to plan and execute events. Additionally, 

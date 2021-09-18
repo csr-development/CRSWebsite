@@ -14,7 +14,7 @@ export default function DigitalMarketing() {
             <div id="content">
                 <Row style={{ paddingTop: "30px" , paddingBottom:"20px"}}>
                     <Col md={6}>
-                    <img style={{maxWidth:"100%", maxHeight:"100%", height:"auto", width:"500px"}} src={digitalMarketingOfficer}/>
+                    <img style={{maxWidth:"100%", maxHeight:"100%", height:"auto", width:"500px"}} src={digitalMarketingOfficer}alt='digital marketing officer'/>
                     </Col>
                     <Col style={{ paddingRight: "30px" }}>
                         <p style={{fontSize:"18px", textAlign:"left"}}>This person is responsible for developing, implementing, and managing marketing aspects that promote our organization and our campaigns. They will play a major role in enhancing our brand on social media (i.e. Instagram, Facebook, Twitter, LinkedIn, TikTok), as well as our website.</p>
