@@ -11,7 +11,7 @@ export default function Internships() {
             <Header />
                 
                 <WhyShouldYouJoinUs />
-                <AvailablePositions />
+                <AvailablePositions position="Website Designer"/>
             <Footer />
         </div>
     )
