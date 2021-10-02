@@ -11,6 +11,12 @@ import Connect from './homeComponents/Connect';
 import Blogs from './homeComponents/Blogs';
 
 export default function Home() {
+
+    /**
+     * Pending:
+     * 1 - Together and Adopt overlay / change font back to white
+     * 2 - Navbar sticky property not working
+     */
     return (
         <div style={{ position: "relative" }}>
             <Header />
