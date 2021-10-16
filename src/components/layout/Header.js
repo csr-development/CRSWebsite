@@ -6,7 +6,7 @@ import './style.css'
 
 export default function Header() {
     return (
-        <div style={{ position: "sticky", top: "0", display: "flex" , gridTemplateColumns: "8% 92% 0%", backgroundColor: "white", width: "100%" }} className='sticky-top""'>
+        <div style={{ position: "sticky", top: "0", display: "flex" , gridTemplateColumns: "8% 92% 0%", backgroundColor: "white", width: "100%" }} className='sticky-top'>
             <div><Link to="/"className="navbar-logo"><img src={logo} alt='CSR Logo' style={{ height: "100px" }} /></Link></div>
             <div><Navbar collapseOnSelect expand="lg" style={{ paddingTop: '30px' }}>
                 <Container>
