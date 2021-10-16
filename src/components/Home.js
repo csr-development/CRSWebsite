@@ -8,7 +8,7 @@ import Donate from './homeComponents/Donate';
 import Ins from './homeComponents/Ins';
 import Touch from './homeComponents/Touch';
 import Connect from './homeComponents/Connect';
-import Blogs from './homeComponents/Blogs';
+// import Blogs from './homeComponents/Blogs';
 
 export default function Home() {
 
@@ -26,7 +26,7 @@ export default function Home() {
             <Ins />
             <Touch />
             <Connect />
-            <Blogs />
+            {/* <Blogs /> */}
             <Footer />
         </div >
     )
