@@ -29,8 +29,8 @@ export default function About() {
             <div style={{ position: "relative", padding: "60px" }}>
                 <img src={aboutMain} style={{ maxWidth: "80vw", position: "relative" }} alt='Typing' />
             </div>
-            <Mission />
-            <Team />
+            {<Mission />
+           /*  <Team />
             <Design />
             <Design2 />
             <Design3 />
@@ -43,11 +43,11 @@ export default function About() {
             <Finances />
             <Writing />
             <HR />
-            <Corporate />
+            <Corporate /> */}
             {/* <Legal /> - no person in this component, removed it temporary*/}
-            <Accounting />
+            {/* <Accounting />
             <Advisors />
-            <History />
+            <History /> */}
             <Footer />
         </div>
     )
