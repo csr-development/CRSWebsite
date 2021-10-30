@@ -1,7 +1,6 @@
 import Header from './layout/Header';
 import Footer from './layout/Footer';
 import React from 'react';
-import hands from '../images/adopt/hands.jpg';
 import Needed from './adoptComponents/Needed';
 import Donate from './adoptComponents/Donate';
 import Impact from './adoptComponents/Impact';
