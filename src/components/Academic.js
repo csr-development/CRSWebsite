@@ -43,6 +43,7 @@ export default function Academic() {
                     </Row>
                 </Container>
             </div>
+            <Footer/>
         </div>
     )
 }

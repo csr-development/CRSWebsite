@@ -9,7 +9,7 @@ import Warzone from './eventComponents/Warzone';
 import FIFA from './eventComponents/FIFA';
 import Conference from './eventComponents/Conference';
 import Development from './eventComponents/Development';
-import NoEvents from './eventComponents/NoEvents';
+// import NoEvents from './eventComponents/NoEvents';
 
 /**
  * To activate the event remove the /* and update the component.

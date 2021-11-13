@@ -12,10 +12,6 @@ import Connect from './homeComponents/Connect';
 
 export default function Home() {
 
-    /**
-     * Pending:
-     * 2 - Navbar sticky property not working
-     */
     return (
         <div style={{ position: "relative" }}>
             <Header />

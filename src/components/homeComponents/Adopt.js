@@ -1,5 +1,4 @@
 import React from 'react'
-import hand from '../../images/helping-hand.jpg';
 import { Button } from 'react-bootstrap';
 import './adopt.css';
 

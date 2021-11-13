@@ -26,11 +26,11 @@ export default function About() {
     return (
         <div>
             <Header />
-            <div style={{ position: "relative", padding: "60px" }}>
-                <img src={aboutMain} style={{ maxWidth: "80vw", position: "relative" }} alt='Typing' />
-            </div>
+            {/* <div style={{ position: "relative", paddingTop: "1rem", paddingBottom: "1rem"}}>
+                <img src={aboutMain} style={{ maxWidth: "50vw", position: "relative" }} alt='Typing' />
+            </div> */}
             <Mission />
-             <Team />
+             {/* <Team />
             <Design />
             <Design2 />
             <Design3 />
@@ -43,10 +43,10 @@ export default function About() {
             <Finances />
             <Writing />
             <HR />
-            <Corporate />
+            <Corporate /> */}
             {/* <Legal /> - no person in this component, removed it temporary*/}
-             <Accounting />
-            <Advisors />
+             {/* <Accounting />
+            <Advisors /> */}
             <History /> 
             <Footer />
         </div>
