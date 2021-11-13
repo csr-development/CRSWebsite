@@ -1,16 +1,16 @@
 import React from 'react';
 import missionImg from '../../images/aboutMain.jpg';
-import { Container } from '@material-ui/core';
+import '../CSS/mission.css';
 
 export default function Mission() {
     return (
         <div style={{ backgroundColor: "#eee", textAlign: "center" }}>
-            <div style={{backgroundImage: `url(${missionImg})`, minHeight: "20vh"}}>
+            <div style={{backgroundImage: `url(${missionImg})`, minHeight: "18vh"}}>
             <p style={{ color: "#FFF", fontSize: "50px", fontWeight: "bold", padding: "2.5rem" }}>
                 Our Mission
             </p>
             </div>
-            <Container style={{display: "flex", gap:"1rem", justifyContent:"center"}}>
+            <div id="mission-div" container spacing={4}>
             <div style={{maxWidth:"30vw"}}>
             <p style={{ fontSize: "20px", padding: "30px", fontWeight:"bold"}}>
                 Students
@@ -37,7 +37,7 @@ export default function Mission() {
                 We take pride in giving back to the community. We work hard to ensure our
              tomorrow is brighter than today.</p>
              </div>
-             </Container>
+             </div>
         </div>
     )
 }
