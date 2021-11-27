@@ -3,7 +3,7 @@
 // import 'firebase/auth';
 
 import { initializeApp } from "firebase/app";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut} from "firebase/auth";
 
 
 const config = {
@@ -33,6 +33,7 @@ export async function createUser(email, password){
       const errorCode = error.code;
       const errorMessage = error.message;
       // ..
+      console.log(errorCode, errorMessage)
     });
 }
 
@@ -47,42 +48,14 @@ export function logInUser(email, password){
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
+    console.log(errorCode, errorMessage)
   });
 }
 
-// export const createUserProfileDocument = async (userAuth, additionalData) => {
-//   if(!userAuth) return;
-
-//   const userRef = firestore.doc(`users/${userAuth.uid}`);
-
-//   const snapShot = await userRef.get();
-
-//   if(!snapShot.exists) {
-//     const {displayName, email} = userAuth;
-//     const createdAt = new Date();
-
-//     try{
-
-//       await userRef.set({
-//         displayName,
-//         email,
-//         createdAt,
-//         ...additionalData
-//       })
-//     } catch(err){
-//       console.log('error created user', err.message)
-//     }
-//   }
-//   return userRef;
-// }
-
-//   firebase.initializeApp(config);
-
-//   export const auth = firebase.auth();
-//   export const firestore = firebase.firestore();
-  
-//   const provider = new firebase.auth.GoogleAuthProvider();
-//   provider.setCustomParameters({ prompt: 'select_account' });
-//   export const signInWithGoogle = () => auth.signInWithPopup(provider);
-  
-//   export default firebase;
+export function logOut(){
+signOut(auth).then(() => {
+  // Sign-out successful.
+}).catch((error) => {
+  // An error happened.
+});
+}

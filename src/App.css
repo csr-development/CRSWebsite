@@ -56,14 +56,10 @@
   width: 30vw;
   display: flex;
   flex-direction: column;
-  text-align: center;
 
 
 }
 .buttons {
   display: flex;
   justify-content: space-between;
-}
-.title{
-  margin: 10px 0;
 }

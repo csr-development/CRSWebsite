@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Input, Container } from '@material-ui/core';
 import { Button } from 'react-bootstrap'
-import { auth, logInUser } from '../../firebase/firebase.utils';
+import { logInUser } from '../../firebase/firebase.utils';
 
 export default function SignIn() {
     const [email, setEmail] = useState('');
