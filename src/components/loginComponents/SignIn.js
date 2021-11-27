@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { Input, Container } from '@material-ui/core';
 import { Button } from 'react-bootstrap'
 import { logInUser } from '../../firebase/firebase.utils';
+import { NavLink } from 'react-router-dom';
 
 export default function SignIn() {
     const [email, setEmail] = useState('');
@@ -50,11 +51,13 @@ export default function SignIn() {
           />
           <div className='buttons' style={{gap: '2rem', marginTop: '2rem'}}>
             <Button style={{backgroundColor: 'black', borderColor: 'black'}} type='submit'> Sign in </Button>
-            {/* <Button onClick={(ev)=>{
+            <NavLink to='/members/forgot'>
+            <Button onClick={(ev)=>{
                 ev.preventDefault();
                 console.log('clicked')}} >
-              Sign in with Google
-            </Button> */}
+              Forgot Password
+            </Button>
+            </NavLink>
           </div>
         </form>
         </Container>

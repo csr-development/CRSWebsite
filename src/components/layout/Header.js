@@ -20,9 +20,9 @@ export default function Header() {
                         <Nav.Link href='/adopt'><div style={{ color: "#111", fontSize: "14px" }}>ADOPT A STUDENT</div></Nav.Link>
                         <Nav.Link href='/partners'><div style={{ color: "#111", fontSize: "14px" }}>PARTNERS</div></Nav.Link>
                         <Nav.Link href='/internships'><div style={{ color: "#111", fontSize: "14px" }}>INTERNSHIPS</div></Nav.Link>
-                        <Nav.Link href='/members'><div style={{ color: "#111", fontSize: "14px" }}>MEMBERS AREA</div></Nav.Link>
                         {/* <Nav.Link href='/branches'><div style={{ color: "#111", fontSize: "14px" }}>BRANCHES</div></Nav.Link> */}
                         <Nav.Link href='/academic'><div style={{ color: "#111", fontSize: "14px" }}>ACADEMIC</div></Nav.Link>
+                        <Nav.Link href='/members'><div style={{ color: "#111", fontSize: "14px" }}>MEMBERS AREA</div></Nav.Link>
                     </Navbar.Collapse>
                 </Container>
             </Navbar></div>

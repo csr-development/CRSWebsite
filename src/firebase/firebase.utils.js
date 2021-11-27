@@ -3,7 +3,7 @@
 // import 'firebase/auth';
 
 import { initializeApp } from "firebase/app";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut} from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, sendPasswordResetEmail} from "firebase/auth";
 
 
 const config = {
@@ -56,6 +56,21 @@ export function logOut(){
 signOut(auth).then(() => {
   // Sign-out successful.
 }).catch((error) => {
-  // An error happened.
+  console.log(error);
 });
+}
+
+export function resetPassword(email){
+  sendPasswordResetEmail(auth, email)
+  .then(() => {
+    // Password reset email sent!
+    // ..
+    console.log('email sent')
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // ..
+    console.log(errorCode, errorMessage)
+})
 }
