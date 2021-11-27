@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Input, Container } from '@material-ui/core';
 import { Button } from 'react-bootstrap'
-import { auth, createUser } from '../../firebase/firebase.utils';
+import { auth, logInUser } from '../../firebase/firebase.utils';
 
 export default function SignIn() {
     const [email, setEmail] = useState('');
@@ -15,6 +15,12 @@ export default function SignIn() {
         ev.preventDefault();
         setPassword(ev.target.value)
     }
+    function handleSubmit(ev){
+        ev.preventDefault();
+        if (email || password){
+            logInUser(email, password)
+        }
+    }
 
     return (
         <div>
@@ -23,7 +29,7 @@ export default function SignIn() {
         <span>Sign in with your email and password</span>
 
         <Container>
-        <form style={{display: 'grid', justifyContent: 'center', marginTop: '1rem'}}>
+        <form style={{display: 'grid', justifyContent: 'center', marginTop: '1rem'}} onSubmit={handleSubmit}>
           <Input
             name='email'
             type='email'
