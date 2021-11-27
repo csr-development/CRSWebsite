@@ -3,6 +3,7 @@ import Header from './layout/Header';
 import Footer from './layout/Footer';
 import SignIn from './loginComponents/SignIn';
 import SignUp from './loginComponents/SignUp';
+import FirebaseLogin from './loginComponents/FirebaseLogin';
 import { Container } from 'react-bootstrap';
 
 export default function Members() {
@@ -16,6 +17,7 @@ export default function Members() {
             <div style={{display: 'flex', minHeight: '76vh', paddingTop: '2rem'}}>
             <SignIn />
             <SignUp />
+            {/* <FirebaseLogin /> */}
             </div>
             </Container>
             <Footer />
