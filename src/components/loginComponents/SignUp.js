@@ -8,6 +8,7 @@ export default function SignUp() {
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
 
+
     function handleSubmit(ev){
         ev.preventDefault();
         console.log('submitted');
@@ -15,8 +16,22 @@ export default function SignUp() {
 
     function handleChange(ev){
         ev.preventDefault();
-        console.log(ev.target.value);
+       let input =  ev.target.name;
+       let value = ev.target.value;
+       switch(input) {
+           case 'displayName': 
+           return setDisplayName(value);
+           case 'email':
+               return setEmail(value);
+               case 'password':
+                   return setPassword(value);
+              case 'confirmPassword':
+                   return setConfirmPassword(value);
+                default:
+                return;
+       }
     }
+
     return (
         <Container className='sign-up' style={{maxWidth: '30vw'}}>
         <h2 className='title'>I do not have an account</h2>

@@ -6,6 +6,15 @@ export default function SignIn() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
+    function handleEmail(ev){
+        ev.preventDefault();
+        setEmail(ev.target.value)
+    }
+    function handlePass(ev){
+        ev.preventDefault();
+        setPassword(ev.target.value)
+    }
+
     return (
         <div>
              <div className='sign-in'>
@@ -17,7 +26,7 @@ export default function SignIn() {
           <Input
             name='email'
             type='email'
-            handleChange={()=>console.log('changed')}
+            onChange={handleEmail}
             value={email}
             placeholder='Email'
             label='email'
@@ -28,7 +37,7 @@ export default function SignIn() {
             type='password'
             placeholder='Password'
             value={password}
-            handleChange={()=>console.log('changed')}
+            onChange={handlePass}
             label='password'
             required
           />
