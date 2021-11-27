@@ -15,6 +15,7 @@ import WebsiteDesigner from './components/internshipComponents/WebsiteDesigner';
 import DigitalMarketing from './components/internshipComponents/DigitalMarketing';
 import GrantWriter from './components/internshipComponents/GrantWriter';
 import FinanceDirector from './components/internshipComponents/FinanceDirector';
+import Members from './components/Members'
 import './App.css';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/DigitalMarketing" component={DigitalMarketing} />
           <Route path="/GrantWriter" component={GrantWriter} />
           <Route path="/FinanceDirector" component={FinanceDirector} />
+          <Route path="/members" component={Members} />
         </Switch>
       </Router>
     </div>

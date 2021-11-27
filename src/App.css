@@ -50,3 +50,20 @@
 .stroke-item {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
+
+/* MEMBERS */
+.sign-in{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  margin: 10px 0;
+}
