@@ -23,8 +23,9 @@ export default function ResetPass() {
     return (
         <div>
              <Header />
-            <h1>Please enter your email below to reset your password</h1>
-            <form style={{display: 'grid', justifyContent: 'center', marginTop: '1rem'}} onSubmit={handleSubmit}>
+            <h3>Please enter your email below to reset your password</h3>
+            <div style={{minHeight: '75vh'}}>
+            <form style={{display: 'grid', justifyContent: 'center', marginTop: '2rem'}} onSubmit={handleSubmit}>
           <Input
             name='email'
             type='email'
@@ -35,9 +36,10 @@ export default function ResetPass() {
             required
           />
           <NavLink to='/members'>
-                  <Button style={{backgroundColor: 'black', borderColor: 'black'}} type='submit'> Reset Password </Button>
+                  <Button style={{backgroundColor: 'black', borderColor: 'black', marginTop: '2rem'}} type='submit'> Reset Password </Button>
                   </NavLink>
           </form>
+          </div>
           <Footer/>
         </div>
     )

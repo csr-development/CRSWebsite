@@ -3,7 +3,7 @@
 // import 'firebase/auth';
 
 import { initializeApp } from "firebase/app";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, sendPasswordResetEmail} from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, sendPasswordResetEmail, updateProfile} from "firebase/auth";
 
 
 const config = {
@@ -21,11 +21,14 @@ const app = initializeApp(config);
 
 const auth = getAuth();
 
-export async function createUser(email, password){
-    createUserWithEmailAndPassword(auth, email, password)
+export async function createUser(email, password, displayName){
+    createUserWithEmailAndPassword(auth, email, password, displayName)
     .then((userCredential) => {
       // Signed in 
       const user = userCredential.user;
+      updateProfile(auth.currentUser, {
+        displayName: displayName
+      });
       console.log(user);
       // ...
     })

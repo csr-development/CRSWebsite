@@ -6,8 +6,11 @@ import { logOut } from '../../firebase/firebase.utils'
 export default function MembersArea({name}) {
     return (
         <Container>
-            <span>{name} is logged in.</span>
-            <h2>Welcome to our Membership Page!</h2>
+            <div style={{display: 'flex', justifyContent: 'center', gap: '.5rem', marginBottom: '1rem'}}>
+            <h4>Welcome to our Membership Page</h4>
+            <h4 style={{fontWeight: 'bold'}}>{name}</h4>
+            <h4>!</h4>
+            </div>
             <p>Here you can find exclusive perks and events!</p>
 
             <span style={{marginTop: '10rem'}}>

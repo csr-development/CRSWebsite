@@ -51,10 +51,8 @@ export default function SignIn() {
           />
           <div className='buttons' style={{gap: '2rem', marginTop: '2rem'}}>
             <Button style={{backgroundColor: 'black', borderColor: 'black'}} type='submit'> Sign in </Button>
-            <NavLink to='/members/forgot'>
-            <Button onClick={(ev)=>{
-                ev.preventDefault();
-                console.log('clicked')}} >
+            <NavLink to='/forgot'>
+            <Button >
               Forgot Password
             </Button>
             </NavLink>
